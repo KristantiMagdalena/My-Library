@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Formulir Anggota Perpustakaan</title>
+        <link rel="stylesheet" href="praktek.css">
+    </head>
+    <body>
+        <h1>Sirkulasi</h1>
+     <table border="1">
+     <h2 align="center">Daftar Anggota</h2>
+     <h3>silahkan diisi sesuai dengan ketentuan yang ada</h3>
+     <th colspan="2"> Formulir anggota </th>
+     <tr>
+		<td> Nama			
+		<br> Email			
+		<br> Nim		
+		<br> Alamat
+		<br> Jenis Kelamin
+		<br> Tanggal Lahir	</td>
+		
+		<td> <input type="text" id="nama" name="nama">
+		<br> <input type="email" id="email" name="email">
+		<br> <input type="Namber" id="Nim" name="Nim">
+		<br> <input type="Alamat" id="Alamat" name="Alamat">
+		<br> <input type="Jenis Kelamin" id="Jenis Kelamin" name="Jenis kelamin">
+		<br> <input type="Namber" id="Tanggal Lahir" name="Tanggal Lahir">
+		</td>
+		
+    </tr>
+    </table>
+     <input type="submit" value="Kirim">
+             </form>
+    
+    <section>
+        <h2 align="center">Bahan Buku</h2>
+        <table border="1">
+            <tr>
+                <th>judul Buku</th>
+                <th>Penulis</th>
+                <th>Tahun Terbit</th>
+            </tr>
+            <tr>
+                <th>mari bung,rebut kembali</th>
+                <th>saleh,R.H.A</th>
+                <th>2000</th>
+            </tr>
+            <tr>
+                <th>(soal jawab) Evaluasi Proyek</th>
+                <th>Supardi;Suwarsono</th>
+                <th>1982</th>
+            </tr>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2 align="center">Form Pemesanan Buku</h2>
+        <form action="/submit_form.php" method="post">
+        <fieldset>
+        <tr>
+             <label for="nama">Nama:</label>
+             <input type="text" id="nama" name="nama">
+        </tr>
+
+        <p>
+                <label for="Nim">Nim:</label>
+                <input type="Namber" id="Nim" name="Nim">
+        </p>
+
+        <tr>
+                <label for="Judul">Judu buku:</label>
+                <input type="text" id="judul" name="judul">
+        </tr>
+
+        <p>
+                <input type  = "submit" value ="simpan">   
+                <input type  = "reset" value = "batal">
+        </p>
+        </fieldset>
+        </form>
+        
+    </section>
+
+    <section>
+        <h2 align="center">Formulir Perpanjangan Peminjaman Buku</h2>
+        <form action="/submit_form.php" method="post">
+        <fieldset>
+            <tr>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+            </tr>
+
+            <p>
+                <label for="Nim">Nim:</label>
+                <input type="Namber" id="Nim" name="Nim">
+            </p>
+
+            <tr>
+                <label for="Judul">Judu buku:</label>
+                <input type="text" id="judul" name="judul">
+            </tr>
+
+            <p>
+                <label for="Kode Eksemplar">Kode Eksemplar:</label>
+                <input type="Namber" id="Kode Eksemplar" name="Kode Eksemplar">
+            </p>
+
+            <tr>
+                <td colspan = "2" left = "center">
+                <input type  = "submit" value ="simpan">   
+                <input type  = "reset" value = "batal"> </td>
+            </tr>
+        </fieldset>
+        </form>
+
+    </section>
+    </body>
+</html>
+
+
+
+
+    
+    

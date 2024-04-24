@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <style>
+        p.center{text-align:center}
+        p {text-indent:50px;}
+        ul.a {list-style-type:circle;margin-left:25px;}
+        ul.b {list-style-type:square;margin-left:25px;}
+        ol.c {list-style-type:upper-roman;margin-left:25px;}
+        ol.c {list-style-type:lower-alpha;margin-left:25px;}
+        body{background-color: rgb(170, 206, 236);font-style:"montserrat",sans-serif;}
+        h1{color: rgb(32, 108, 223);}
+    </style>
+    </head>
+    <body>
+        <title>HTML dan CSS</title>
+        <H1 align="center">HTML</H1>
+        <p>Hyper Text Markup Language atau yang biasa disebuat dengan HMTL merupakan sebuah bahasa markah yang di 
+            perlukan untuk membangun dan membentuk struktur pada halaman web. HTML memiliki beberapa tag dan atribut untuk mendefinisikan berbagai
+            macam element seperti,judul,paragraf,tautan,gambar,formulir.Adapun yang menjadi fungsi utama dari HTML yaitu, sebagai dasar untuk
+            membangun website dan untuk menampilkan media atau konten pada website. </p>
+        <p>Dalam HTML terdapat dua jenis lists,diantaranya:</p>
+            <ul class="a"></ul>
+            <li> Unordered Lists-list item ditandai dengan bullets </li>
+            <li> Ordeder Lists-daftar item ditandai dengan angka atau huruf</li>
+        <h1 align="center">CSS</h1>
+        <p>Cascading Style Sheet atau yang biasa disebut dengan CSS adalah sebuah bahasa pemrograman yang digunakan mengatur atau menentukan 
+            bagaimana sebuah dokumen akan ditampilkan pada website. terdapat tiga cara dalam menggunakan CSS,diantaranya yaitu Inline style Sheet,
+            Internal Style Sheet dan Eksternal Style Sheet
+        </p>
+    </body>
