@@ -43,7 +43,6 @@
     
 
            <!--content image start-->
-           <img src="book 2.jpg" class="img" alt="..."width="100%" height="65%">
 
            <!--content image done-->
 
@@ -56,7 +55,7 @@
                 <img src="book.png" style="width: 100%;">
               </div>
             </div>
-          </div>
+        
           <!--Lay 1 done-->
           <!-- footer start-->
           <div class="row text-center align-items-center mt-5" style="color: rgb(17, 87, 109);">
